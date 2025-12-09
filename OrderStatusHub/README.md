@@ -202,17 +202,18 @@ dotnet test
 
 # Known Limitations
 
-  Sanitize data 
-  Handle incorrect data structure
-  Possible Injection attacks
+  - Sanitize data 
+  - Handle incorrect data structure
+  - Possible Injection attacks
 
 # Future Improvements
 
-  Add a comprehensive health check end point, this is just to check it api is running.
-  Include performance metrics to identify and mitigate bottlenecks and perfomance issues
-  Implement Caching 
-  Token authentication
-  Move Hardcoded constants to enums or a constant file
+  - Add a comprehensive health check end point, this is just to check it api is running.
+  - Include performance metrics to identify and mitigate bottlenecks and perfomance issues
+  - Implement Caching 
+  - Token authentication
+  - Move Hardcoded constants to enums or a constant file
+  - Add Appropriate comments
 
 # Deployment (Render)
 
