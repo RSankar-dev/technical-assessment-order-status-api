@@ -208,12 +208,12 @@ dotnet test
 
 # Future Improvements
 
-  - Add a comprehensive health check end point, this is just to check it api is running.
+  - Add a comprehensive health check end point, this is just to check if api is running.
   - Include performance metrics to identify and mitigate bottlenecks and perfomance issues
   - Implement Caching 
   - Token authentication
   - Move Hardcoded constants to enums or a constant file
-  - Add Appropriate comments
+  - Add Appropriate comments round the logic
 
 # Deployment (Render)
 
@@ -230,5 +230,4 @@ Right click on the api project and publish to Azure directory
 Ensure `/data` folder is included in repo root.
 
 ---
-
 # End of README
