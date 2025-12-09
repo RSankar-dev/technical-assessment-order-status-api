@@ -222,9 +222,9 @@ dotnet test
 cd backend && dotnet publish -c Release -o publish
 ```
 
-### Run command:
+### Publish API on Azure:
 ```
-cd backend/publish && dotnet OrderStatusHub.Api.dll --urls "http://0.0.0.0:$PORT"
+Right click on the api project and publish to Azure directory
 ```
 
 Ensure `/data` folder is included in repo root.
