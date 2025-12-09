@@ -1,5 +1,6 @@
 # Order Status Integration Hub
 ## Project Overview
+ Live URL (Azure Deployment): https://orderstatushubapi20251209100842-d9hefwdudtg2bjb3.canadacentral-01.azurewebsites.net/api/order-hub/orders
 
 This project integrates order data from two different legacy systems (System A and System B), each providing data in a different format (JSON and CSV).
 The system reads both files, normalizes the data (including dates and status codes), and exposes a unified REST API.
@@ -131,11 +132,11 @@ http://localhost:8080
 
 # API Documentation
 
-## Base URL
+## Base URL 
 ```
 https://localhost:<port>/api
 ```
-
+Live URL (Azure Deployment): https://orderstatushubapi20251209100842-d9hefwdudtg2bjb3.canadacentral-01.azurewebsites.net/api/order-hub/orders
 ---
 
 ## GET /api/health
