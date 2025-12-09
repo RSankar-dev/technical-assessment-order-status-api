@@ -213,7 +213,7 @@ dotnet test
   - Implement Caching 
   - Token authentication
   - Move Hardcoded constants to enums or a constant file
-  - Add Appropriate comments round the logic
+  - Add Appropriate comments around the logic
 
 # Deployment (Render)
 
