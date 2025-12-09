@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Order Status Hub</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <h1>Order Status Hub</h1>
+
+    <div class="controls">
+      <label for="statusFilter">Filter by status:</label>
+      <select id="statusFilter">
+        <option value="">-- All --</option>
+        <option>Pending</option>
+        <option>Processing</option>
+        <option>Shipped</option>
+        <option>Completed</option>
+        <option>Cancelled</option>
+      </select>
+      <button id="applyFilter">Apply</button>
+      <button id="reload">Reload</button>
+    </div>
+
+    <div id="error" class="error" hidden></div>
+
+    <table id="ordersTable" class="orders">
+      <thead>
+        <tr>
+          <th>Order ID</th>
+          <th>Source</th>
+          <th>Customer</th>
+          <th>Date</th>
+          <th>Total</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

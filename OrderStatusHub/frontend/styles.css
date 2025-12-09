@@ -1,0 +1,8 @@
+body { font-family: system-ui, Arial; margin: 24px; background:#f8f9fb; color:#111;}
+main { max-width:1000px; margin: auto; background:white; padding:18px; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.06);}
+h1 { margin-top:0; }
+.controls { display:flex; gap:8px; align-items:center; margin-bottom:12px; }
+.orders { width:100%; border-collapse:collapse; }
+.orders th, .orders td { border-bottom:1px solid #e6e6e6; padding:8px 6px; text-align:left; }
+.orders tbody tr:hover { background: #fbfbfb; }
+.error { color: #8b0000; margin-bottom:8px; }
