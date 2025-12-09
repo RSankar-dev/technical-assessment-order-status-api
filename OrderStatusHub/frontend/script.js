@@ -1,5 +1,5 @@
 //const API_BASE = (window.location.hostname === "localhost") ? "http://localhost:5000/api" : "/api";
-const API_BASE = "https://localhost:63174/api";
+const API_BASE = "https://localhost:63174/api/order-hub";
 
 async function fetchOrders(statusFilter = "") {
   let url = `${API_BASE}/orders`;
@@ -91,3 +91,4 @@ window.addEventListener("load", async () => {
   console.log("Frontend initialized. Loading orders...");
   await loadOrders();
 });
+
